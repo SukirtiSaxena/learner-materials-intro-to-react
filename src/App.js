@@ -1,17 +1,11 @@
 import './App.css';
 import icon from './cat.png'
+import Navbar from './components/Navbar.js'
 
 function App() {
   return (
     <>
-      <nav className="nav__container">
-        <ul className="nav__container ul ul__navbar">
-          <li><a className="links" href="home">Home</a></li>
-          <li><a className="links" href="mews">Mews</a></li>
-          <li><a className="links" href="contact">Contact</a></li>
-          <li><a className="links" href="https://www.cats.org.uk/sponsor">About</a></li>
-        </ul>
-      </nav>
+      <Navbar />
 
       <header className="header__container">
         <h1 className="header__title header__welcome">Welcome to React!</h1>
